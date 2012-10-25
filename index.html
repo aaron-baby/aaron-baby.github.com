@@ -2,56 +2,26 @@
 layout: default
 title: Aaron Wang
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Aaron-baby.github.com by aaron-baby</title>
+<header>
+  <h1 class="header">Aaron Wang</h1>
+  <p class="header">my pages</p>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Aaron-baby.github.com</h1>
-        <p class="header">my pages</p>
+  <ul>
+    <li><a class="buttons github" href="https://github.com/aaron-baby">GitHub Profile</a></li>
+  </ul>
 
-
-
-        <ul>
-          <li><a class="buttons github" href="https://github.com/aaron-baby">GitHub Profile</a></li>
-        </ul>
-
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
+</header>
+<section>
+  <h3>Welcome to My Pages.</h3>
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-      <ul>
-        {% for item in site.posts %}
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
-        {% endfor %}
-      </ul>
-      </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
-  </body>
-</html>
+<ul>
+  {% for item in site.posts %}
+    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+  {% endfor %}
+</ul>
+</section>
+<footer>
+  <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+</footer>
