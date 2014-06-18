@@ -9,11 +9,11 @@ tags: Phalcon 技术
     <?php $request = $di->get("request");
 
 或者通过魔术方法get*Service_name*的方式
+
     <?php
-    
     $request = $di->getRequest();
 
 也可以使用取数组元素的语法
+
     <?php
-    
     $request = $di['request'];
