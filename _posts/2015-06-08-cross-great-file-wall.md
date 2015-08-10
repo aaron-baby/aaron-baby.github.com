@@ -4,6 +4,7 @@ title: 一些不错的翻墙服务
 tags: 翻墙 VPN GFW
 ---
 ## {{page.title}} ##
+- [12vpn](https://twelve.today/ "12vpn")
 - [Green网络加速器](https://www.igreenjsq.me/ "Green网络加速器")
 - [falcop](http://falcop.com/zh/ "falcop")
 - [云梯](http://refyunti.com/?r=d57e60db420bb701)
