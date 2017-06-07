@@ -24,6 +24,7 @@ verify a commit will not break any tests
 `repo_observer.py` file
 - parses command line arguments: dispatcher-server address, repository path
 - kicks off an infinite while loop to periodically check the repository for changes.
+
 		while True:
 		    try:
 		        # call the bash script that will update the repo and check
@@ -62,8 +63,10 @@ important for resource management. If the dispatcher goes down, then the test ru
 
 1. updates the repository to the given commit ID.
 2. call unit test suite
+
 		suite = unittest.TestLoader().discover(test_folder)
 		unittest.TextTestRunner(result_file).run(suite)
+
 3. write to result_file
 
 #### Reference
