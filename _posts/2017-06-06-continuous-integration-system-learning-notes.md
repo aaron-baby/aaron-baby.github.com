@@ -17,14 +17,11 @@ verify a commit will not break any tests
 ### Roles
 - **repository observer**
 	- The observer watches the repository. When it notices that a commit has been made, it notifies the job dispatcher.
-
 - a test **job dispatcher**
-
 - the **test runner** reports its results to a component that makes them available for people to see, perhaps on a webpage.
 
 ### Repo observer实现
 `repo_observer.py` file
-
 - parses command line arguments: dispatcher-server address, repository path
 - kicks off an infinite while loop to periodically check the repository for changes.
 
@@ -72,4 +69,4 @@ important for resource management. If the dispatcher goes down, then the test ru
 3. write to result_file
 
 #### Reference
-- [A Continuous Integration System] (http://aosabook.org/en/500L/a-continuous-integration-system.html "A Continuous Integration System")
+- [A Continuous Integration System](http://aosabook.org/en/500L/a-continuous-integration-system.html "A Continuous Integration System")
