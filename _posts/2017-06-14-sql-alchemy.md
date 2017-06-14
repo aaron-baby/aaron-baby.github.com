@@ -14,7 +14,7 @@ By exposing relational concepts, SQLAlchemy embraces the idea of **"leaky abstra
 dividing the task into two main categories known as **Core** and **ORM**.
 
 SQLAlchemy layer diagram
-![SQLAlchemy layer diagram](../images/sqlal-layers.png)
+![SQLAlchemy layer diagram](/images/sqlal-layers.png)
 
 ### Compilation
 The central class responsible for rendering SQL expression trees into textual SQL is the `Compiled class`.
