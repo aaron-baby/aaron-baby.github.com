@@ -1,2 +1,7 @@
 encoding: "utf-8"
 markdown: kramdown
+title: Aaron-baby.github.com
+description: my pages
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
