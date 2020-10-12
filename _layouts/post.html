@@ -11,8 +11,8 @@
   </head>
   <body>
     <main id="content" class="main-content" role="main">
-      <h1>{{page.title}}</h1>>
-      <p>published on {{ page.date }}</p>
+      <h1>{{page.title}}</h1>
+      <p>published on {{ page.date | date_to_string }}</p>
       {{ content }}
     </main>
   </body>
