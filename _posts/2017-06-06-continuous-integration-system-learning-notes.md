@@ -3,7 +3,6 @@ layout: post
 title: CI系统学习笔记
 tags: learning_notes Continuous_Integration
 ---
-## {{page.title}} ##
 ## responsibility
 verify a commit will not break any tests
 

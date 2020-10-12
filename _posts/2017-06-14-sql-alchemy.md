@@ -3,7 +3,6 @@ layout: post
 title: SQLAlchemy
 tags: learning_notes SQLAlchemy
 ---
-## {{page.title}} ##
 ## What is it?
 - a database toolkit and object-relational mapping (ORM) system for the Python programming language
 - using the Python Database API (DBAPI) for database interactivity.

@@ -3,7 +3,6 @@ layout: post
 title: Goroutines和Threads线程的区别
 tags: goroutine thread
 ---
-## {{page.title}} ##
 > OS thread has a ﬁxed-size block of memory (often as large as 2MB) for its stack
 
 > 线程（英語：thread）是操作系统能夠進行運算调度的最小單位。大部分情况下，它被包含在进程之中，是进程中的實際運作單位
